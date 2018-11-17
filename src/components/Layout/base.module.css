@@ -5,7 +5,11 @@
   --theme-grey: #757083;
   --theme-grey-blue: #8a95a5;
 
+  --font-families: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
   background-color: var(--theme-white-smoke);
+  font-family: var(--font-families);
 }
 
 .container {
