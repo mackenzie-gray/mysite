@@ -39,7 +39,7 @@ const Layout = ({ children }) => (
         </Helmet>
         <div className={styles.container}>
           <Header />
-          <div>{children}</div>
+          <div className={styles.content}>{children}</div>
         </div>
       </>
     )}
