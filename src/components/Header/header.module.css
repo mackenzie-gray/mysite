@@ -64,3 +64,23 @@
   visibility: visible;
   transform: scaleX(1);
 }
+
+@media (max-width: 970px) {
+  .header {
+    flex-basis: 140px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 42px;
+  }
+
+  .logo {
+    flex-shrink: 0;
+    margin-bottom: 0;
+  }
+
+  .navList li {
+    display: inline-block;
+    margin-right: 16px;
+  }
+}
