@@ -1,8 +1,8 @@
 :root {
   --theme-black: #090c08;
   --theme-dark-blue: #2b4162;
-  --theme-grey: #757083;
   --theme-grey-blue: #8a95a5;
+  --theme-grey: #d0ccd0;
   --theme-white-smoke: #f5f0f6;
   --theme-white: #ffffff;
 
@@ -24,6 +24,7 @@
   display: flex;
   justify-content: center;
   flex-basis: 100%;
+  overflow-y: scroll;
 }
 
 @media (max-width: 970px) {
