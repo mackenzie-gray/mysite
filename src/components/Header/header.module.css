@@ -9,3 +9,58 @@
   align-items: center;
   color: var(--theme-white-smoke);
 }
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid var(--theme-white-smoke);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo span {
+  cursor: default;
+  transition: 0.7s ease all;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.logo:hover span {
+  transform: rotateY(180deg);
+  transform-origin: center;
+}
+
+.navList {
+  margin: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.navList li a {
+  color: var(--theme-white-smoke);
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 3px;
+}
+
+.navList li a::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  transition: 0.3s ease all;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transform: scaleX(0);
+  background-color: var(--theme-white-smoke);
+  margin: auto;
+}
+
+.navList li:hover a::after {
+  visibility: visible;
+  transform: scaleX(1);
+}
