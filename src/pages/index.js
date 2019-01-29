@@ -9,8 +9,8 @@ import Projects from '../components/Projects'
 const IndexPage = () => (
   <Layout>
     <About />
-    <Experience />
     <Projects />
+    <Experience />
     <Contact />
   </Layout>
 )
