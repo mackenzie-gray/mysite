@@ -16,17 +16,17 @@ export default () => (
             let { roles } = experience
             return (
               <div className={styles.experience}>
-                <h3>{experience.company}</h3>
-                <img src={images[experience.logo]} className={styles.logo} />
+                <div>
+                  <h3>{experience.company}</h3>
+                  <img src={images[experience.logo]} className={styles.logo} />
+                </div>
                 {roles.map(role => (
                   <>
-                    <h4>{role.title}</h4>
-                    <p>{role.dates}</p>
-                    <ul>
-                      {role.summary.map(test => (
-                        <li>{test}</li>
-                      ))}
-                    </ul>
+                    <div>
+                      <h4>{role.title}</h4>
+                      <h5>{role.dates}</h5>
+                    </div>
+                    <p>{role.summary}</p>
                   </>
                 ))}
               </div>

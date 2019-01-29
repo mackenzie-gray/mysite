@@ -6,7 +6,7 @@ export default class Projects extends Component {
       <section id="projects">
         <h2>Projects</h2>
         <p>
-          Check out some of the things I've built on on my{' '}
+          Check out some other things I've built on on my{' '}
           <a
             href="https://github.com/mackenzie-gray"
             target="_blank"
