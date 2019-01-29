@@ -39,7 +39,9 @@ const Layout = ({ children }) => (
         </Helmet>
         <div className={styles.container}>
           <Header />
-          <div className={styles.content}>{children}</div>
+          <div className={styles.content}>
+            <div className={styles.contentContainer}>{children}</div>
+          </div>
         </div>
       </>
     )}

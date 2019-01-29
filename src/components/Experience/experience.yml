@@ -1,0 +1,33 @@
+title: Experience
+experiences:
+  - company: Wattpad
+    roles:
+      - title: Engineer
+        summary:
+          - Implemented, tested and deployed new features in Wattpad’s multilingual web and iOS applications as a member of the Writer Success Squad
+          - Helped transition codebases from Backbone to React, and Objective- C to Swift
+          - Developed marketing websites, new storytelling products and helped implement a design system into existing products
+          - Participated in code reviews, interviews and facilitated iOS guild
+        dates: Jun 2017 - Present
+      - title: Associate Engineer
+        summary:
+          - Worked closely with product managers and designers to develop new features for Wattpad’s web app
+          - Deployed AB Tests, fixed bugs, helped move lots of the frontend code from PHP to Node/Express and Backbone
+        dates: Jan 2015-Aug 2016
+    logo: wp_logo
+  - company: Canada Company, AGF
+    roles:
+      - title: Junior Web Developer
+        dates: Sept 2013-Sept 2014
+        summary:
+          - Developed bilingual website for Canada Company charity using Cascade CMS System
+          - Built and managed JSP backend application veterans could use to find jobs
+    logo: agf_logo
+  - company: NeXJ Systems
+    roles:
+      - title: Quality Assurance Analyst
+        dates: Jan 2013-Apr 2013
+        summary:
+          - Tested company software to ensure a high level of quality before shipping builds to clients
+          - Developed automated scripts to enable quick testing of core features
+    logo: nexj_logo
