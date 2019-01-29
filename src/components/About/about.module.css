@@ -1,0 +1,15 @@
+h1 {
+  font-weight: 800;
+}
+
+.about {
+  display: flex;
+}
+
+.about p {
+  padding-right: 30px;
+}
+
+.picture {
+  border-radius: 50%;
+}

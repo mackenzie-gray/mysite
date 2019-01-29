@@ -32,6 +32,14 @@
   padding: 150px 0;
 }
 
+.topRightTriangle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 270px solid transparent;
+  border-top: 90px solid var(--theme-dark-blue);
+}
+
 @media (max-width: 970px) {
   .container {
     flex-direction: column;

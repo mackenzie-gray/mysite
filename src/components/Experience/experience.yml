@@ -3,7 +3,7 @@ experiences:
   - company: Wattpad
     roles:
       - title: Engineer
-        summary: As a client engineer at Wattpad I implemented, tested and deployed new features in Wattpad’s multilingual web and iOS applications as a member of the Writer Success Squad. As part of this I helped transition codebases from Backbone to React, and Objective-C to Swift. I've also developed marketing websites, new storytelling products, helped implement a design system into existing products, and participated in code reviews and interviews.
+        summary: As a client engineer at Wattpad I implemented, tested and deployed new features in Wattpad’s multilingual web and iOS applications. As part of this I helped transition codebases from Backbone to React, and Objective-C to Swift. I've also developed marketing websites, new storytelling products, implemented a design system into existing products, and participated in code reviews and interviews.
         dates: Jun 2017 - Present
       - title: Associate Engineer
         summary: During my time as a coop student at Wattpad I worked closely with product managers and designers to develop new features for Wattpad’s web app. I also deployed AB Tests, fixed bugs, helped move lots of the frontend code from PHP to Node/Express and Backbone.

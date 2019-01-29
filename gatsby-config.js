@@ -29,7 +29,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Nunito:400,600'],
+          families: ['Nunito:300,400,600,800'],
         },
       },
     },
