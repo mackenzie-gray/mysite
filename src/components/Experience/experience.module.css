@@ -2,6 +2,10 @@
   height: 28px;
 }
 
+.experience {
+  margin-bottom: 60px;
+}
+
 .experience div {
   display: flex;
   justify-content: space-between;

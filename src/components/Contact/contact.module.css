@@ -53,3 +53,14 @@ label {
 .form :focus {
   outline-color: var(--theme-dark-blue);
 }
+
+@media (max-width: 800px) {
+  .info {
+    flex-direction: column;
+  }
+
+  .info > div:first-of-type,
+  .info > div:last-of-type {
+    margin: 0 0 10px;
+  }
+}

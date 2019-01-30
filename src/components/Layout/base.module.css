@@ -1,6 +1,6 @@
 :root {
   --theme-black: #090c08;
-  --theme-dark-blue: #192e4e;
+  --theme-dark-blue: #503678;
   --theme-grey-blue: #8a95a5;
   --theme-grey: #d0ccd0;
   --theme-white-smoke: #f5f0f6;
@@ -43,20 +43,22 @@
 
 .contentContainer {
   width: 768px;
-  padding: 0;
+  padding: 0 0 80px;
   margin-top: -60px;
 }
 
-.topRightTriangle {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-left: 270px solid transparent;
-  border-top: 90px solid var(--theme-dark-blue);
-}
-
-@media (max-width: 970px) {
+@media (max-width: 1090px) {
   .container {
     flex-direction: column;
+  }
+  .headerImage {
+    flex-basis: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contentContainer {
+    width: 100%;
+    padding: 0 20px 80px;
   }
 }
