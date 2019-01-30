@@ -15,37 +15,41 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            description
+            keywords
           }
         }
       }
     `}
-    render={data => (
-      <>
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            {
-              name: 'description',
-              content: 'Homepage of Mack Gray, web + app developer, Toronto.',
-            },
-            {
-              name: 'keywords',
-              content:
-                'Mack Gray, mack, gray, web, developer, engineer, ios, app, site, frontend',
-            },
-          ]}
-        >
-          <html lang="en" />
-        </Helmet>
-        <div className={styles.container}>
-          <Header />
-          <div className={styles.topRightTriangle} />
-          <div className={styles.content}>
-            <div className={styles.contentContainer}>{children}</div>
+    render={data => {
+      let meta = data.site.siteMetadata
+      return (
+        <>
+          <Helmet
+            title={meta.title}
+            meta={[
+              {
+                name: 'description',
+                content: meta.description,
+              },
+              {
+                name: 'keywords',
+                content: meta.keywords,
+              },
+            ]}
+          >
+            <html lang="en" />
+          </Helmet>
+          <div className={styles.container}>
+            <Header />
+            <div className={styles.content}>
+              <div className={styles.headerImage} />
+              <div className={styles.contentContainer}>{children}</div>
+            </div>
           </div>
-        </div>
-      </>
-    )}
+        </>
+      )
+    }}
   />
 )
 

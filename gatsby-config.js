@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'Mack Gray',
+    description: 'Homepage of Mack Gray, web + app developer, Toronto.',
+    keywords:
+      'Mack Gray, mack, gray, web, developer, engineer, ios, app, site, frontend',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

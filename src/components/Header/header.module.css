@@ -2,20 +2,16 @@
   position: relative;
   flex-basis: 300px;
   flex-shrink: 0;
-  background-color: var(--theme-dark-blue);
+  background-image: linear-gradient(
+    to bottom,
+    var(--gradient-bottom),
+    var(--gradient-top)
+  );
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: var(--theme-white-smoke);
-}
-
-.triangleTop {
-  position: absolute;
-  top: 0px;
-  right: 0;
-  border-bottom: 90px solid transparent;
-  border-right: 270px solid var(--theme-white);
 }
 
 .logo {

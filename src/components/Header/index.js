@@ -4,7 +4,6 @@ import styles from './header.module.css'
 const Header = () => {
   return (
     <div className={styles.header}>
-      <div className={styles.triangleTop} />
       <div className={styles.logo}>
         <span>MG</span>
       </div>
