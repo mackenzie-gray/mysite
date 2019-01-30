@@ -28,3 +28,9 @@
   max-height: 50%;
   margin-bottom: 0;
 }
+
+@media (max-width: 800px) {
+  .project {
+    height: 80px;
+  }
+}
